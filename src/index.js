@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from './Header'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-function index() {
-  return (
-    <Header />
-    
-  )
-}
-
-export default index
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
