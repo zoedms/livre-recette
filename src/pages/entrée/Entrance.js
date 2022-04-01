@@ -1,8 +1,13 @@
 import React from 'react'
+import './Entrance.css'
 
 function Entrance() {
   return (
-    <div>Entrance</div>
+    <div>
+      <main>
+        <h1>merde</h1>
+      </main>
+    </div>
   )
 }
 
