@@ -1,6 +1,6 @@
 import React from "react";
-import "./Home.css"
-import Header from "../../componnent/Header"
+import "./Home.css";
+import Header from "../componnent/Header";
 
 function Home() {
   return (
@@ -21,9 +21,7 @@ function Home() {
           rem iusto? Nobis voluptates ipsa cum eum itaque dolores. Id, maxime
           quasi!
         </p>
-        <div className="carroussel">
-
-        </div>
+        <div className="carroussel"></div>
       </main>
     </div>
   );
