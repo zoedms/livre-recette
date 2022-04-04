@@ -1,6 +1,6 @@
 import React from "react";
-import "../src/Home.css";
-import Header from "./Header";
+import "../pages/Home.css"
+import Header from "../componnent/Header";
 
 function Home() {
   return (
