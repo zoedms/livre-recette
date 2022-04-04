@@ -13,7 +13,7 @@ function Entrance() {
         <Header />
       </header>
       <main>
-        <h1 className="recette_h1"></h1>
+        <h1 className="recette_h1">Entrée du jour :</h1>
         <section className="recette">
           <img className="img-recette" src={salade1} alt="salade"></img>
           <div className="list_recette">
