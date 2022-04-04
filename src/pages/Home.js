@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Home.css"
+import "./Home.css";
 import Header from "../componnent/Header";
 import Card from "../componnent/Card";
 import Footer from "../componnent/Footer";
@@ -26,6 +26,7 @@ function Home() {
           rem iusto? Nobis voluptates ipsa cum eum itaque dolores. Id, maxime
           quasi!
         </p>
+
         <article className="card_recette">
           <Card
             img={Salade}
@@ -89,6 +90,7 @@ function Home() {
           rem iusto? Nobis voluptates ipsa cum eum itaque dolores. Id, maxime
           quasi!
         </p>
+
       </main>
       <Footer />
     </div>
