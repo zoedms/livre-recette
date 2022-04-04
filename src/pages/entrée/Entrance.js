@@ -1,7 +1,7 @@
 import React from "react";
 import "./Entrance.css";
 import Header from "../../componnent/Header";
-import "../acceuil/Home.css";
+import "../accueil/Home.css";
 import salade1 from "../../assets/image-entrance/salade.jpg";
 // import salade2 from "../../assets/image-entrance/tapas.jpg";
 // import salade3 from "../../assets/image-entrance/saladetomato.jpg";
