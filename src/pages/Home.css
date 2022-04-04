@@ -34,7 +34,7 @@ header {
 }
 
 .main_home {
-    height: 100vh;
+    height: auto;
     background-color: #fbcc81ad;
 }
 
@@ -44,8 +44,44 @@ header {
     font-weight: 500;
     font-size: 3rem;
     color: #263B46;
+    text-align: center;
 }
 
 .main_home > p {
+    margin: 0 20px;
+    padding: 50px;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.3rem;
+}
+
+.card_recette {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #263B46;
+}
+
+.liste_footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.liste_footer > h5 {
+    font-size: 1.5rem;
+    font-family: 'Khand', sans-serif;
+    color: #BC632E;
+}
+
+.liste_footer > ol {
+    list-style-type: none;
+    color: #D89839;
     margin: 0 50px;
 }

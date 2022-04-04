@@ -1,0 +1,45 @@
+.card__recette {
+    background-color: #D89839;
+    width: 275px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 40px;
+
+}
+
+.card__recette:hover {
+    background-color: #d89839a2;
+}
+
+.recette__img {
+    width: 275px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info_recette {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-family: 'Economica', sans-serif;
+}
+
+.info_recette > h3 {
+    font-size: 2rem;
+}
+
+.info_recette > p {
+    font-size: 1.5rem;
+}
+
+.info_recette > a {
+    text-decoration: underline 1px solid black;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
