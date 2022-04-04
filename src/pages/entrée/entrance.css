@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size:3.5rem;
+    font-size: 2.5rem;
 }
 
 main {
@@ -49,8 +49,9 @@ main {
 
 .recette_h2 {
     color: whitesmoke;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 55px;
 
 }
 .list_recette {
