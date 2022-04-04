@@ -1,17 +1,13 @@
 import './App.css';
-
+import Home from './pages/Home';
 import Entrance from './pages/entrée/Entrance';
-
-import Home from './Home';
 
 
 function App() {
   return (
     <div className="App">
-
-      <Entrance />
-
       <Home/> 
+    <Entrance />
     </div>
   );
 }
